@@ -101,6 +101,12 @@ body {
     color: #151314;
 }
 
+.form select option {
+    background-color: #a6a4a5;
+    color: #282627;
+    max-height: 10px;
+}
+
 .form input {
     background-color: #a6a4a5;
     padding: 10px 15px;
@@ -133,10 +139,14 @@ body {
 .form button:hover {
     text-transform: uppercase;
     font-weight: bold;
-    color: red;
-    border: 1px solid red;
+    color: green;
+    border: 1px solid green;
     transition: all 0.3s linear;
     cursor: pointer;
+}
+
+.form .valorResult {
+    text-align: center;
 }
 
 footer {
