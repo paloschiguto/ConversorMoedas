@@ -1,0 +1,155 @@
+/*
+RGB(40, 38, 39) → #282627 (preto suave)
+RGB(166, 164, 165) → #a6a4a5 (cinza claro)
+RGB(102, 100, 101) → #666465 (cinza médio escuro)
+RGB(21, 19, 20) → #151314 (quase preto)
+RGB(76, 74, 75) → #4c4a4b (cinza escuro)
+RGB(122, 120, 121) → #7a7879 (cinza médio)*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #A6A4A5;
+}
+
+/*remove a borda padrão*/
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+
+/*remove setas do input type number*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('../imgs/fundo/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 15px;
+    min-height: 200px;
+    min-width: 400px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    transition: all 0.2s ease;
+    font-size: 18px;
+}
+
+.form .moeda {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form .valor {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.form select {
+    background-color: #a6a4a5;
+    padding: 10px 15px;
+    border: 2px solid #a6a4a5;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 300px;
+    font-size: 18px;
+    color: #282627;
+}
+
+.form select:hover {
+    border: 2px solid #151314;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    color: #151314;
+}
+
+.form input {
+    background-color: #a6a4a5;
+    padding: 10px 15px;
+    border: 2px solid #a6a4a5;;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 18px;
+    color: #282627;
+}
+
+.form input:hover {
+    border: 2px solid #151314;
+    transition: all 0.2s linear;
+    cursor: pointer;
+    color: #151314;
+}
+
+.form button {
+    min-width: 300px;
+    padding: 10px 15px;
+    border: 1px solid #282627;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    background-color: #282627;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form button:hover {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: red;
+    border: 1px solid red;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+        transition: all 0.3s linear;
+    }
+}
