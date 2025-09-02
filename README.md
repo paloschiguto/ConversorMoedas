@@ -1,4 +1,4 @@
-<b>💱 Conversor de Moedas</b>
+<b>Conversor de Moedas</b>
 
 Um simples **conversor de moedas online**, desenvolvido em **HTML, CSS e JavaScript**, que consome dados em tempo real da **[ExchangeRatesAPI](https://exchangeratesapi.io/)**.  
 
@@ -14,5 +14,4 @@ Um simples **conversor de moedas online**, desenvolvido em **HTML, CSS e JavaScr
 - **ExchangeRatesAPI** → fonte das taxas de câmbio  
 
 ## 📸 Demonstração
-*(adicione aqui um print ou gif da aplicação em funcionamento)*  
-Exemplo:  
+<img width="975" height="799" alt="image" src="https://github.com/user-attachments/assets/dc8b3c59-7a3d-4763-95d7-6a454393b3db" />
